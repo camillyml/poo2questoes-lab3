@@ -8,10 +8,9 @@ public class Main {
         int resultadoBinarioSubtracao = calculadoraBinaria.subtrair(5, 3); 
         int resultadoBinarioMultiplicacao = calculadoraBinaria.multiplicar(5, 3);  
 
-        System.out.println("Soma binária: " + Integer.toBinaryString(resultadoBinarioSoma));  
-        System.out.println("Subtração binária: " + Integer.toBinaryString(resultadoBinarioSubtracao));  
-        System.out.println("Multiplicação binária: " + Integer.toBinaryString(resultadoBinarioMultiplicacao));  
-
+        System.out.println("soma binária: " + Integer.toBinaryString(resultadoBinarioSoma));  
+        System.out.println("subtração binária: " + Integer.toBinaryString(resultadoBinarioSubtracao));  
+        System.out.println("multiplicação binária: " + Integer.toBinaryString(resultadoBinarioMultiplicacao));  
 
         Calculadora calculadoraDecimal = new CalculadoraDecimalWrapper();
 
@@ -19,8 +18,8 @@ public class Main {
         int resultadoDecimalSubtracao = calculadoraDecimal.subtrair(5, 3);
         int resultadoDecimalMultiplicacao = calculadoraDecimal.multiplicar(5, 3);
 
-        System.out.println("Soma decimal: " + resultadoDecimalSoma);  
-        System.out.println("Subtração decimal: " + resultadoDecimalSubtracao);  
-        System.out.println("Multiplicação decimal: " + resultadoDecimalMultiplicacao); 
+        System.out.println("soma decimal: " + resultadoDecimalSoma);  
+        System.out.println("subtração decimal: " + resultadoDecimalSubtracao);  
+        System.out.println("multiplicação decimal: " + resultadoDecimalMultiplicacao); 
     }
 }
